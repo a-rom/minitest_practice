@@ -19,4 +19,14 @@ class MiniTestPracticeTest < Minitest::Test
     assert_equal false, @main.odd?(2),  '2 is not odd'
     assert_equal false, @main.odd?(10000), '10000 is not odd'
   end
+
+  def test_even?
+    assert_equal true,  @main.even?(-10000), '10000 is even'
+    assert_equal true,  @main.even?(-2), '-2 is even'
+    assert_equal false, @main.even?(-1), '-1 is not even'
+    assert_equal true,  @main.even?(0),  '0 is even'
+    assert_equal false, @main.even?(1),  '1 is not even'
+    assert_equal true,  @main.even?(2),  '2 is even'
+    assert_equal true,  @main.even?(10000), '10000 is even'
+  end
 end

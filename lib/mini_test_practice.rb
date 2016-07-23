@@ -9,5 +9,9 @@ module MiniTestPractice
         return false
       end
     end
+
+    def even?(n)
+      return ! odd?(n)
+    end
   end
 end
