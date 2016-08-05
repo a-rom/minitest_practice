@@ -6,8 +6,8 @@ require 'mini_test_practice/version'
 Gem::Specification.new do |spec|
   spec.name          = "mini_test_practice"
   spec.version       = MiniTestPractice::VERSION
-  spec.authors       = ["Yoshihide Chubachi"]
-  spec.email         = ["yoshi@chubachi.net"]
+  spec.authors       = ["a-tanaka"]
+  spec.email         = ["a1623at@aiit.ac.jp"]
 
   spec.summary       = %q{Write a short summary, because Rubygems requires one.}
   spec.description   = %q{Write a longer description or delete this line.}
